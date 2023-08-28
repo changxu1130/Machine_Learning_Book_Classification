@@ -1,30 +1,29 @@
 # Machine_Learning_Book_Classification
 
-================= Jupyter Notebooks =================
-A total of 3 models, 0R, Decision Tree, and Logistic Regression were buit (each in the notebook with the corresponding name) and compared in terms of its accuracy, precision, F1 score. 
+================= Jupyter Notebooks ==================================================================================================================================
 
-================= Data Files =================
+A total of 3 models, 0R, Decision Tree, and Logistic Regression were built (each in the notebook with the corresponding name) and compared in terms of their accuracy, precision, and F1 score. 
 
+================= Data Files ==========================================================================================================================================
 1. book_rating_train.csv
-This file contains the book features and label for training instances.
+This file contains the book features and labels for training instances.
 Number of instances: 23063
 Number of columns: 10
 The columns are (the column names are in the first row):
 	Name, Authors, PublishYear, PublishMonth, PublishDay, Publisher, Language, pagesNumber, Description, rating_label
 
 
-The columns Name, Authors and Description contain the raw text data of these features.
+The columns Name, Authors, and Description contain the raw text data of these features.
 
-The class label is in the last column: rating_label. There are 3 possible levels, 3, 4 or 5.
-
+The class label is in the last column: rating_label. There are 3 possible levels, 3, 4, or 5.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. book_rating_test.csv
 This file contains the book features for test instances.
 Number of instances: 5766
 Number of columns: 9
 The columns are (the column names are in the first row):
 	Name, Authors, PublishYear, PublishMonth, PublishDay, Publisher, Language, pagesNumber, Description
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. book_text_features_*.zip: preprocessed text features for training and test sets, 1 zipped file for each text encoding method
 
 3.1 book_text_features_countvec.zip
