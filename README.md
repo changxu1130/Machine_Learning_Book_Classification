@@ -1,11 +1,11 @@
 # Machine_Learning_Book_Classification
 
-================= Jupyter Notebooks ==================================================================================================================================
-
+# Jupyter Notebooks
 
 A total of 3 models, 0R, Decision Tree, and Logistic Regression were built (each in the notebook with the corresponding name) and compared in terms of their accuracy, precision, and F1 score. 
 
-================= Data Files ==========================================================================================================================================
+# Data Files
+
 1. book_rating_train.csv
 This file contains the book features and labels for training instances.
 Number of instances: 23063
